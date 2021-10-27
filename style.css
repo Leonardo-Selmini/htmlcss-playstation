@@ -2,3 +2,37 @@
 * {
   font-family: 'PT Sans', sans-serif;
 }
+
+/* 00000000 HEADER 00000000 */
+
+/* HEADER top - sony section */
+#sony img {
+  height: 12px;
+}
+
+/* HEADER bottom - jumbo */
+#jumbo {
+  height: 600px;
+}
+
+
+/* 00000000 DEBUG 00000000 */
+.debug nav {
+  height: 50px;
+  background-color:blue;
+}
+
+.debug #jumbo {
+  background-color: green;
+}
+
+.debug #jumbo-col {
+  height: 200px;
+  background-color: bisque;
+}
+
+.debug .jumbo-img {
+  height: 100px;
+  background-color: indianred;
+  border: 1px solid rgb(124, 39, 39);
+}
