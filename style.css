@@ -10,17 +10,38 @@
   height: 12px;
 }
 
+/* HEADER top - navbar */
+.dropdown-menu {
+  animation: growdown 500ms ease-out;
+  transform-origin: top center;
+}
+
+@keyframes growdown {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.dp-icon {
+  width: 80px;
+}
+
 /* HEADER bottom - jumbo */
 #jumbo {
   height: 600px;
 }
 
 /* 00000000 DEBUG 00000000 */
-.debug nav {
-  height: 50px;
-  background-color:blue;
-}
-
 .debug #jumbo {
   background-color: green;
 }
