@@ -57,6 +57,7 @@
   background-image: url(img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #jumbo-row {
@@ -91,6 +92,13 @@
   opacity: 1;
 }
 
+/* MAIN - takestwo section */
+#takestwo {
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
