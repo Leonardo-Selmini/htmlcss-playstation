@@ -3,6 +3,13 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.fs-h2 {
+  font-size: 3rem;
+}
+
+.rounded-15 {
+  border-radius: 1.5rem;
+}
 /* 00000000 HEADER 00000000 */
 
 /* HEADER top - sony section */
@@ -38,14 +45,31 @@
 
 /* HEADER bottom - jumbo */
 #jumbo {
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#jumbo-row {
   height: 600px;
 }
 
-/* 00000000 DEBUG 00000000 */
-.debug #jumbo {
-  background-color: green;
+.jumbo-preview {
+  position: relative;
+  bottom: 0;
+  padding: 2px;
+  border: 2px solid transparent;
+  filter: opacity(0.8);
+  transition: 200ms ease-out;
 }
 
+.jumbo-preview:hover {
+  bottom: 10px;
+  border: 2px solid rgb(0, 112, 209);
+  filter: opacity(1);
+}
+
+/* 00000000 DEBUG 00000000 */
 .debug .jumbo-img {
   height: 100px;
   background-color: indianred;
