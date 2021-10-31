@@ -100,7 +100,20 @@
   background-repeat: no-repeat;
 }
 
+/* MAIN - release section */
+#release {
+  background-color: rgb(33, 37, 41);
+}
 
+.release-preview {
+  filter: brightness(.8);
+  transition: 200ms linear;
+}
+
+.release-preview:hover {
+  border-radius: 0;
+  filter: brightness(1);
+}
 
 
 /* 00000000 DEBUG 00000000 */
