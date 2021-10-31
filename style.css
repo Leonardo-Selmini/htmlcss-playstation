@@ -3,13 +3,22 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.fs-h2 {
+.fs-title {
   font-size: 3rem;
 }
 
 .rounded-15 {
   border-radius: 1.5rem;
 }
+
+.ps-color {
+  color: rgb(0, 112, 209);
+}
+
+.btn-ps {
+  background-color: rgb(0, 112, 209);
+}
+
 /* 00000000 HEADER 00000000 */
 
 /* HEADER top - sony section */
@@ -59,15 +68,32 @@
   bottom: 0;
   padding: 2px;
   border: 2px solid transparent;
-  filter: opacity(0.8);
+  opacity: .8;
   transition: 200ms ease-out;
 }
 
 .jumbo-preview:hover {
   bottom: 10px;
   border: 2px solid rgb(0, 112, 209);
-  filter: opacity(1);
+  opacity: 1;
 }
+
+/* 00000000 MAIN 00000000 */
+
+/* MAIN - ps5 section */
+.ps5-preview {
+  border-bottom: 2px solid transparent;
+  opacity: .8;
+}
+
+.ps5-preview:hover {
+  border-bottom: 2px solid rgb(0, 112, 209);
+  opacity: 1;
+}
+
+
+
+
 
 /* 00000000 DEBUG 00000000 */
 .debug .jumbo-img {
