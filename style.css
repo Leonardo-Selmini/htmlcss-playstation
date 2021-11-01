@@ -115,6 +115,10 @@
   filter: brightness(1);
 }
 
+/* MAIN - plus section */
+#plus {
+  background-color: rgb(185, 185, 185);
+}
 
 /* 00000000 DEBUG 00000000 */
 .debug .jumbo-img {
