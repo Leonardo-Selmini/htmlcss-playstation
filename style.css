@@ -120,6 +120,11 @@
   background-color: rgb(185, 185, 185);
 }
 
+/* MAIN - psnow section */
+#psnow {
+  background-color: rgb(0, 0, 80);
+}
+
 /* 00000000 DEBUG 00000000 */
 .debug .jumbo-img {
   height: 100px;
